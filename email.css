@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+.email-info {
+  background-color: #e9f7fe;
+  border: 1px solid #b3e5fc;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.email-address {
+  font-weight: bold;
+  color: #0288d1;
+}
+.template {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 14px;
+  overflow-x: auto;
+}
+.warning {
+  color: #e74c3c;
+  font-style: italic;
+}
+.btn {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #2980b9;
+}
